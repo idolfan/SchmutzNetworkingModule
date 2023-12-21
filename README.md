@@ -1,18 +1,12 @@
-## Getting Started
+This is an example project, containing classes to simplify communicatino between clients and a server.
+The classes should be edited to match a specific need.
+However it is essential to edit the following files:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Message.java:
+    - New functions which build new messages or process received messages, should be added into this file.
 
-## Folder Structure
+- Client.java:
+    - The "TODO" area inside the switch statement should be edited, as this is the only way new messagetypes will be processed
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Server.java:
+    - The "TODO" area inside the switch statement should be edited, as this is the only way new messagetypes will be processed

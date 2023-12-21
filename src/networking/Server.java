@@ -73,7 +73,7 @@ public class Server implements Runnable {
                 NetworkManager manager = NetworkManager.deconstructMessage(message);
 
                 switch (manager.messageType) {
-
+                    // TODO: Add cases for your message types here
                     default -> System.out.println("Unknown message type: " + manager.messageType);
 
                 }
